@@ -1,0 +1,18 @@
+{
+  "--Select RoadMap--":[
+    
+  ],
+  "Web Development":[
+    "Learn HTML, CSS and JS",
+    "Learn Frameworks(React , Angular)",
+    "Start Backend with MERN or PYTHON",
+    "Explore Databases",
+    "Learn Version Control"
+  ],
+  "UI/UX design":[
+    "Start with Canva",
+    "Desgining Principles",
+    "start with Figma ",
+    "Prototyping"
+  ]
+}

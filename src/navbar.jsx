@@ -91,6 +91,7 @@ const Navbar = () => {
       </button>
 
       <button className="btnnav">
+        <Link to="/chatbot" className="l">
           <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 64 64"
@@ -137,6 +138,7 @@ const Navbar = () => {
   </text>
 </svg>
 
+    </Link>
       </button>
 
     </nav>

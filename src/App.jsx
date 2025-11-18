@@ -6,15 +6,19 @@ import Home from "./home";
 import Login from "./login";
 import Register from "./register";
 import Roadmap from "./roadmap";
-import RoadmapCarousel from "./WebDevRoadmap";
+import Webdev from "./WebDevRoadmap";
+import DataSci from "./datascience";
 import CareerChatbot from "./chatbot";
+import Ml from "./ml"
 
 
 function Layout() {
   const location = useLocation();
 
   // routes where navbar should NOT appear
-  const hideNavRoutes = ["/webdev"];
+  const hideNavRoutes = ["/webdev" , "/datasci" ,"/ml"];
+
+
 
   return (
     <>
@@ -29,7 +33,10 @@ function Layout() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/roadmap" element={<Roadmap />} />
-        <Route path="/webdev" element={<RoadmapCarousel />} />
+        <Route path="/webdev" element={<Webdev />} />
+        <Route path="/datasci" element={<DataSci />} />
+        <Route path="/ml" element={<Ml />} />
+
         <Route path="/chatbot" element={<CareerChatbot/>}/>
       </Routes>
     </>

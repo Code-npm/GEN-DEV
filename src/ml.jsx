@@ -1,27 +1,28 @@
 import { useState } from "react";
 import "./roadmap.css";
+import { Github } from "lucide-react";
 
-export default function Webdev() {
+export default function Ml() {
   const steps = [
     {
       title: "Step 1",
-      text: ["How Internet Works", "Internet Protocol", "HTTP/HTTPS"],
+      text: ["Python", "Numpy , Pandas", "Mathpolib"],
     },
     {
       title: "Step 2",
-      text: ["HTML", "CSS", "Javascript"],
+      text: ["Stats", "Probability", "Algebra" , "Calculus"],
     },
     {
       title: "Step 3",
-      text: ["DOM", "Frameworks(React , Vue etc)", "Git & Github"],
+      text: ["Supervised Learning", "Linear Regression", "Logistic Regression", "Decision Trees & KNN" ,"Random Forest"],
     },
     {
       title: "Step 4",
-      text: ["Node.js", "Express.js", "SQL / MongoDB "],
+      text: ["Unsupervised Learning", "K-Means Clustering", "Hierarchical Clustering", "Principal Component Analysis (PCA)" ],
     },
     {
       title: "Step 5",
-      text: ["Tailwind Css" , "SCSS" , "Framer Motion(GSAP)"],
+      text: [" Model Evaluation & Tuning" , " Advanced ML & Deep Learning" , "Git & Github -Deployment"],
     },
   ];
 
@@ -34,7 +35,7 @@ export default function Webdev() {
 
   return (
     <div className="roadmap-section">
-      <h2 className="roadmap-title">Home ▶ Web Development</h2>
+      <h2 className="roadmap-title">Home ▶ Data Science</h2>
 
       <div className="carousel-container">
         <div
@@ -63,32 +64,31 @@ export default function Webdev() {
       <div className="links">
         <p>Free resources:-</p>
         <div className="resl">
-          <h3>Code with Harry (Both)</h3>
+          <h3>Krish Naik</h3>
           <button>Source</button>
           </div>
           <div className="resl">
-        <h3>Shreyians Coding School (Both)</h3>
+        <h3>365 DataScience</h3>
           <button>Source</button>
           </div>
           <div className="resl">
-        <h3>Coding With Sagar (for Frontend)</h3>
+        <h3>KaggleLearn</h3>
           <button>Source</button>
           </div>
       </div>
       <div className="links">
         <p>Paid Courses:-</p>
         <div className="resl">
-          <h3>Shreyains Coding School 
-          (Both)</h3>
+          <h3>Shreyains Coding School </h3>
 
           <button>Source</button>
           </div>
           <div className="resl">
-          <h3>Udemy(Dr. Angela)(Frontend)</h3>
+          <h3>Coursera-Andrew NG</h3>
           <button>Source</button>
           </div>
           <div className="resl">
-           <h3>Apna College (Both)</h3>
+           <h3>DataCamp (Supervised Learning)</h3>
           <button>Source</button>
           </div>
       </div>
@@ -97,15 +97,24 @@ export default function Webdev() {
     <div className="careerpath">
       <h1>🚀Career Path</h1><hr />
       <ul>
-        <li>Frontend Developer – UI/UX focus</li>
-<li>Backend Developer – Server-side logic</li>
-<li>Full Stack Developer – Both frontend + backend</li>
-<li>Freelancer – Build websites for clients</li>
-<li>Startup Builder – Create your own apps/products</li>
+        <li>Machine Learning Engineer – Build predictive models for real-world problems
+</li>
+<li>Data Scientist – Combine analytics and ML to provide insights
+
+</li>
+<li>AI Engineer – Work on deep learning and neural networks
+
+</li>
+<li>Business Analyst – Use ML for decision-making
+
+</li>
+<li>Researcher – Innovate new ML algorithms or applications
+
+</li>
       </ul>
       <h1>Average Salaries in India</h1><hr />
       <ul>
-        <li>Beginner: ₹3–6 LPA</li> 
+        <li>Beginner: ₹4–7 LPA</li> 
 <li>Mid-level: ₹8–15 LPA</li>
 <li>Senior: ₹20+ LPA</li>
       </ul>
@@ -113,15 +122,22 @@ export default function Webdev() {
     <div className="tips">
       <h1>💡 Tips for Beginners</h1><hr />
       <ul>
-        <li>Take one step at a time: HTML → CSS → JS → React → Backend
+        <li>Start with small datasets and simple algorithms
+
+
 </li>
-<li>Practice daily, even for 1 hour
+<li>Understand the math behind models, don’t just copy code
+
+
 </li>
-<li>Make small projects, don’t wait for perfect ideas
+<li>Build projects and host them on GitHub
+
+
 </li>
-<li>Share your work on GitHub and LinkedIn
+<li>Participate in Kaggle competitions to gain experience
+
 </li>
-<li>Be patient; learning web development takes months</li>
+<li>Keep learning; ML is constantly evolving</li>
       </ul>
     </div>
     </div>

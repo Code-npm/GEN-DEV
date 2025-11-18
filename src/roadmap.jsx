@@ -15,11 +15,11 @@ export default function CareerOptions() {
   Web Development
 </button>
 
-      <button onClick={() => handleClick("Data Scientist")} className='Cbtn'> 
+      <button onClick={() => navigate("/datasci")} className='Cbtn'> 
         Data Scientist
       </button>
 
-      <button onClick={() => handleClick("AI / ML Engineer")} className='Cbtn'>
+      <button onClick={() =>navigate("/ml") } className='Cbtn'>
         AI / ML Engineer
       </button>
 

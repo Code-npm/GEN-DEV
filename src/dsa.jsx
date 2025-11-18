@@ -35,7 +35,9 @@ export default function Dsa() {
 
   return (
     <div className="roadmap-section">
-      <h2 className="roadmap-title">Home ▶ Data Science</h2>
+      <h2 className="roadmap-title">Home ▶ Data Structure
+        
+      </h2>
 
       <div className="carousel-container">
         <div
@@ -64,15 +66,15 @@ export default function Dsa() {
       <div className="links">
         <p>Free resources:-</p>
         <div className="resl">
-          <h3>Krish Naik</h3>
+          <h3>Abdul Bari-Data structures</h3>
           <button>Source</button>
           </div>
           <div className="resl">
-        <h3>365 DataScience</h3>
+        <h3>Code With Harry-DSA</h3>
           <button>Source</button>
           </div>
           <div className="resl">
-        <h3>KaggleLearn</h3>
+        <h3>Apni Kaksha(Shradha Mam)</h3>
           <button>Source</button>
           </div>
       </div>
@@ -80,15 +82,14 @@ export default function Dsa() {
         <p>Paid Courses:-</p>
         <div className="resl">
           <h3>Shreyains Coding School </h3>
-
           <button>Source</button>
           </div>
           <div className="resl">
-          <h3>Coursera-Andrew NG</h3>
+          <h3>Coursera-DSA </h3>
           <button>Source</button>
           </div>
           <div className="resl">
-           <h3>DataCamp (Supervised Learning)</h3>
+           <h3>LeetCode-Learn</h3>
           <button>Source</button>
           </div>
       </div>
@@ -97,47 +98,39 @@ export default function Dsa() {
     <div className="careerpath">
       <h1>🚀Career Path</h1><hr />
       <ul>
-        <li>Machine Learning Engineer – Build predictive models for real-world problems
+        <li>Software Engineer – Writing optimized code for real-world applications
 </li>
-<li>Data Scientist – Combine analytics and ML to provide insights
+<li>Competitive Programmer – Compete in coding competitions globally
+</li>
+<li>Backend Developer – Efficient data handling for servers and databases
+</li>
+<li>Interview Preparation – Most tech interviews focus heavily on DSA
+</li>
 
-</li>
-<li>AI Engineer – Work on deep learning and neural networks
-
-</li>
-<li>Business Analyst – Use ML for decision-making
-
-</li>
-<li>Researcher – Innovate new ML algorithms or applications
-
-</li>
       </ul>
       <h1>Average Salaries in India</h1><hr />
       <ul>
-        <li>Beginner: ₹4–7 LPA</li> 
-<li>Mid-level: ₹8–15 LPA</li>
+        <li>Beginner: ₹3–6 LPA</li> 
+<li>Mid-level: ₹7–15 LPA</li>
 <li>Senior: ₹20+ LPA</li>
       </ul>
     </div>
     <div className="tips">
       <h1>💡 Tips for Beginners</h1><hr />
       <ul>
-        <li>Start with small datasets and simple algorithms
-
-
-</li>
-<li>Understand the math behind models, don’t just copy code
-
+        <li>Understand concepts clearly instead of memorizing code
 
 </li>
-<li>Build projects and host them on GitHub
-
-
-</li>
-<li>Participate in Kaggle competitions to gain experience
+<li>Practice problems daily; start from easy and move to medium & hard
 
 </li>
-<li>Keep learning; ML is constantly evolving</li>
+<li>Use visualizations to understand algorithms
+
+</li>
+<li>Analyze time and space complexity
+
+</li>
+<li>Participate in coding contests to gain confidence</li>
       </ul>
     </div>
     </div>

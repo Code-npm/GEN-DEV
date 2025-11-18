@@ -379,3 +379,10 @@ nav{
   text-align: center;
   line-height: 6rem;
 }
+.info-r {
+  display: flex;
+}
+
+.info-r h1{
+  font-size:1rem;
+}

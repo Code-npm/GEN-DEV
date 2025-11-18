@@ -6,8 +6,9 @@ import Home from "./home";
 import Login from "./login";
 import Register from "./register";
 import Roadmap from "./roadmap";
-import WebDevRoadmap from "./WebDevRoadmap";
+import RoadmapCarousel from "./WebDevRoadmap";
 import CareerChatbot from "./chatbot";
+
 
 function Layout() {
   const location = useLocation();
@@ -28,7 +29,7 @@ function Layout() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/roadmap" element={<Roadmap />} />
-        <Route path="/webdev" element={<WebDevRoadmap />} />
+        <Route path="/webdev" element={<RoadmapCarousel />} />
         <Route path="/chatbot" element={<CareerChatbot/>}/>
       </Routes>
     </>

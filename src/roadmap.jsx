@@ -27,8 +27,8 @@ export default function CareerOptions() {
         Cyber Security
       </button>
 
-      <button onClick={() => handleClick("Software Engineer")} className='Cbtn'>
-        Software Engineer
+      <button onClick={() => navigate("/dsa")} className='Cbtn'>
+        Data Structure
       </button>
       </div>
     </div>

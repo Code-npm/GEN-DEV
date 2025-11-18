@@ -10,13 +10,14 @@ import Webdev from "./WebDevRoadmap";
 import DataSci from "./datascience";
 import CareerChatbot from "./chatbot";
 import Ml from "./ml"
+import Dsa from "./dsa"
 
 
 function Layout() {
   const location = useLocation();
 
   // routes where navbar should NOT appear
-  const hideNavRoutes = ["/webdev" , "/datasci" ,"/ml"];
+  const hideNavRoutes = ["/webdev" , "/datasci" ,"/ml" ,"/dsa"];
 
 
 
@@ -36,7 +37,7 @@ function Layout() {
         <Route path="/webdev" element={<Webdev />} />
         <Route path="/datasci" element={<DataSci />} />
         <Route path="/ml" element={<Ml />} />
-
+        <Route path="/dsa" element={<Dsa />} />
         <Route path="/chatbot" element={<CareerChatbot/>}/>
       </Routes>
     </>

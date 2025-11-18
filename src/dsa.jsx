@@ -2,27 +2,27 @@ import { useState } from "react";
 import "./roadmap.css";
 import { Github } from "lucide-react";
 
-export default function Ml() {
+export default function Dsa() {
   const steps = [
     {
       title: "Step 1",
-      text: ["Python", "Numpy , Pandas", "Mathpolib"],
+      text: ["C++/Java/Python", "Basic of any language", "Arrays & Strings"],
     },
     {
       title: "Step 2",
-      text: ["Stats", "Probability", "Algebra" , "Calculus"],
+      text: ["Linked Lists", "Stacks & Queues" , "recursion"],
     },
     {
       title: "Step 3",
-      text: ["Supervised Learning", "Linear Regression", "Logistic Regression", "Decision Trees & KNN" ,"Random Forest"],
+      text: ["Trees", "Graphs", "Searching", "Sorting"],
     },
     {
       title: "Step 4",
-      text: ["Unsupervised Learning", "K-Means Clustering", "Hierarchical Clustering", "Principal Component Analysis (PCA)" ],
+      text: ["Hashing", "Advanced Topics", "Advanced Algorithm"],
     },
     {
       title: "Step 5",
-      text: [" Model Evaluation & Tuning" , " Advanced ML & Deep Learning" , "Git & Github -Deployment"],
+      text: [" Project & Practice" , " Git & Github"],
     },
   ];
 
@@ -35,7 +35,7 @@ export default function Ml() {
 
   return (
     <div className="roadmap-section">
-      <h2 className="roadmap-title">Home ▶ AI /ML Engineer</h2>
+      <h2 className="roadmap-title">Home ▶ Data Science</h2>
 
       <div className="carousel-container">
         <div
